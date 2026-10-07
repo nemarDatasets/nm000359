@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Bern-Barcelona EEG database: focal and nonfocal intracranial EEG signal pairs (Andrzejak, Schindler & Rummel 2012)",
+  "description": "The Bern-Barcelona EEG database provides 7500 pairs of intracranial EEG signals (3750 focal and 3750 non-focal) drawn from five patients with pharmacoresistant temporal lobe epilepsy. Each pair consists of two neighbouring channels, 20 s long, sampled at 512 Hz. This BIDS repackaging losslessly converts the published text files to BrainVision format. All runs are pooled under one pseudo-subject because patient, channel and time of origin were not stored.",
+  "methods_description": "Intracranial strip and depth electrodes recorded long-term iEEG in five epilepsy surgery candidates at the University of Bern. The source data were band-pass filtered at 0.5-150 Hz (zero-phase Butterworth), down-sampled to 512 Hz where needed, and re-referenced to the median of artifact-free channels. Focal channels were those showing the first ictal changes, judged by at least two electroencephalographers. 20-s windows were randomly selected, excluding seizures and the following three hours, and pairs with prominent artifacts were discarded. Values were converted to float32 BrainVision files with no filtering, resampling or rescaling.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Ralph G. Andrzejak": {},
     "Kaspar Schindler": {},
@@ -15,6 +20,30 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Epilepsy, Temporal Lobe",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004833"
+    },
+    {
+      "term": "focal and non-focal signals"
+    },
+    {
+      "term": "seizure onset zone"
+    },
+    {
+      "term": "nonlinear time series analysis"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.34810/data502",
@@ -43,14 +72,11 @@
       "award_number": "FIS-2010-18204"
     }
   ],
-  "title": "Bern-Barcelona EEG database: focal and nonfocal intracranial EEG signal pairs (Andrzejak, Schindler & Rummel 2012)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "1.37 GB (15013 files)"
   ],
@@ -62,33 +88,8 @@
     ".txt",
     ".vhdr",
     ".vmrk",
+    ".yml",
     ".zip"
   ],
-  "description": "The Bern-Barcelona EEG database contains 7500 pairs of 20-second intracranial EEG signals (3750 focal and 3750 non-focal), sampled at 512 Hz, from five patients with pharmacoresistant temporal lobe epilepsy. The pairs were drawn from interictal recordings of presurgical long-term monitoring. This BIDS version is a lossless repackaging of the published text files into BrainVision format. Patient, channel and time of origin were not stored, so all runs are pooled under a single pseudo-subject.",
-  "methods_description": "Long-term intracranial EEG was recorded with AD-TECH strip and depth electrodes at the University of Bern. The signals were band-pass filtered at 0.5-150 Hz (zero-phase Butterworth), down-sampled to 512 Hz where needed, and re-referenced to the median of artifact-free channels. Focal channels were defined as those showing the first ictal changes, judged by visual inspection. Signal pairs of neighbouring channels were randomly drawn from 20-s windows, excluding seizures and the three hours after the last seizure. Pairs with prominent artifacts were discarded.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "focal seizures"
-    },
-    {
-      "term": "seizure onset zone"
-    },
-    {
-      "term": "nonlinear time series analysis"
-    }
-  ],
-  "source_hash": "c12f84f6b7bccbff9876313eb1054b324b9fa29e68aedb5d7ee149d73c3d9f22"
+  "source_hash": "262c8b41759d281a081c6f045bebdcfa3009a45a1e75b692cd7efa16ebb35ca3"
 }
