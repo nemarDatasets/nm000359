@@ -137,6 +137,23 @@ bibliographic information.
 
 R.G.A. acknowledges grant FIS-2010-18204 of the Spanish Ministry of Education and Science.
 
+## How to load
+
+Example with MNE-Python / MNE-BIDS (after `nemar dataset get` or `datalad get` of the files you need):
+
+```python
+import mne
+from mne_bids import BIDSPath, read_raw_bids
+
+bp = BIDSPath(root="<dataset root>", subject="pooled", task="interictal",
+              acquisition="focal", run="0007", datatype="ieeg", suffix="ieeg", extension=".vhdr")
+raw = read_raw_bids(bp)          # 2 channels (x, y), 10240 samples at 512 Hz
+data = raw.get_data()            # values exactly as in the source text; physical unit not stated by the source
+```
+
+The published test outcomes per pair are in
+`sub-pooled/sub-pooled_scans.tsv` (e.g. `pandas.read_csv(..., sep="\t")`).
+
 ## How to cite
 
 Cite the paper (doi:10.1103/PhysRevE.86.046206) and the dataset (doi:10.34810/data502). Also cite this BIDS
