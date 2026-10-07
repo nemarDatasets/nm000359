@@ -1,0 +1,94 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Ralph G. Andrzejak": {},
+    "Kaspar Schindler": {},
+    "Christian Rummel": {
+      "orcid": "0000-0003-2345-7938",
+      "affiliations": [
+        {
+          "name": "Pompeu Fabra University",
+          "identifier": "https://ror.org/04n0g0b29",
+          "scheme": "ROR"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.34810/data502",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.1103/PhysRevE.86.046206",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000359",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000359",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Spanish Ministry of Education and Science",
+      "award_number": "FIS-2010-18204"
+    }
+  ],
+  "title": "Bern-Barcelona EEG database: focal and nonfocal intracranial EEG signal pairs (Andrzejak, Schindler & Rummel 2012)",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "1.37 GB (15013 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk",
+    ".zip"
+  ],
+  "description": "The Bern-Barcelona EEG database contains 7500 pairs of 20-second intracranial EEG signals (3750 focal and 3750 non-focal), sampled at 512 Hz, from five patients with pharmacoresistant temporal lobe epilepsy. The pairs were drawn from interictal recordings of presurgical long-term monitoring. This BIDS version is a lossless repackaging of the published text files into BrainVision format. Patient, channel and time of origin were not stored, so all runs are pooled under a single pseudo-subject.",
+  "methods_description": "Long-term intracranial EEG was recorded with AD-TECH strip and depth electrodes at the University of Bern. The signals were band-pass filtered at 0.5-150 Hz (zero-phase Butterworth), down-sampled to 512 Hz where needed, and re-referenced to the median of artifact-free channels. Focal channels were defined as those showing the first ictal changes, judged by visual inspection. Signal pairs of neighbouring channels were randomly drawn from 20-s windows, excluding seizures and the three hours after the last seizure. Pairs with prominent artifacts were discarded.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "focal seizures"
+    },
+    {
+      "term": "seizure onset zone"
+    },
+    {
+      "term": "nonlinear time series analysis"
+    }
+  ],
+  "source_hash": "c12f84f6b7bccbff9876313eb1054b324b9fa29e68aedb5d7ee149d73c3d9f22"
+}
