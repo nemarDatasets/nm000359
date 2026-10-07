@@ -1,0 +1,5 @@
+{
+  "description": {
+    "Description": "What the entry stands for. Entries are channel roles, not fixed physical contacts: the physical contact differs between runs and is not recorded by the source."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "TaskName": "interictal",
+  "TaskDescription": "No task. Interictal segments of clinical long-term intracranial EEG monitoring (presurgical epilepsy diagnostics). Recordings of seizure activity and the three hours after the last seizure were excluded by the source.",
+  "InstitutionName": "Department of Neurology, Inselspital, Bern University Hospital, University of Bern",
+  "InstitutionAddress": "CH-3010 Bern, Switzerland",
+  "ElectrodeManufacturer": "AD-TECH (Racine, WI, USA)",
+  "iEEGPlacementScheme": "Intracranial strip and depth electrodes placed for presurgical evaluation of pharmacoresistant temporal lobe epilepsy; x and y are neighbouring channels of the same class (focal or nonfocal). Electrode type (strip or depth) and position of each signal were not stored by the source.",
+  "iEEGReference": "Re-referenced by the source against the median of all channels free of permanent artifacts (visual inspection). Original recording reference: extracranial electrode placed between 10-20 positions Fz and Pz.",
+  "iEEGGround": "n/a",
+  "SamplingFrequency": 512,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": {
+    "ButterworthBandPass": {
+      "Description": "Applied by the source before release: digital band-pass 0.5-150 Hz, fourth-order Butterworth, forward and backward (zero-phase).",
+      "LowCutoff_Hz": 0.5,
+      "HighCutoff_Hz": 150,
+      "Order": 4
+    },
+    "Downsampling": {
+      "Description": "Applied by the source: EEG signals were sampled at 512 or 1024 Hz depending on whether they were recorded with more or less than 64 channels; signals recorded at 1024 Hz were down-sampled to 512 Hz. Which pairs were down-sampled was not stored by the source."
+    }
+  },
+  "HardwareFilters": "n/a",
+  "RecordingDuration": 20.0,
+  "RecordingType": "continuous",
+  "OtherChannelCount": 2,
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 0,
+  "EEGChannelCount": 0,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "ElectricalStimulation": false,
+  "SubjectArtefactDescription": "Pairs with prominent measurement artifacts were discarded by the source after visual inspection; moderate 50 Hz power-line contamination was not an exclusion criterion."
+}

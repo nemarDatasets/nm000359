@@ -1,0 +1,92 @@
+{
+  "source": "Repositori Digital de la UPF, hdl:10230/42829, doi:10.34810/data502",
+  "acquired": "2026-10-06 via the DSpace REST API (bitstreams/<uuid>/content); every bitstream MD5 equals the repository checkSum in bundles.json",
+  "files": [
+    {
+      "path": "ASR_Sources_2013_06_11.zip",
+      "bytes": 11924,
+      "sha256": "86f819108f90fb211beaa4a10b3b10167ad121df94c4f8e3a81929bc4fb99c5b"
+    },
+    {
+      "path": "Data_F_50.zip",
+      "bytes": 5635975,
+      "sha256": "38f373dad7617212007843e4bee92e777c38e229c7fbba06f86e601719a9b9fa"
+    },
+    {
+      "path": "Data_F_Ind_1501_2250.zip",
+      "bytes": 84402222,
+      "sha256": "d690fdd571ca4a2bbba6c34edf9fe7fd769ab9d92f83132985fca1e90e8c9f31"
+    },
+    {
+      "path": "Data_F_Ind_1_750.zip",
+      "bytes": 84371800,
+      "sha256": "a30db11e7800fb39be9948a6822e9f4534dd4c84945141c80a98ffaf5e6d8228"
+    },
+    {
+      "path": "Data_F_Ind_2251_3000.zip",
+      "bytes": 84449829,
+      "sha256": "b4751159fee6adee564e913a90e34b6df7ce320d0e923dff444eec64c5379dab"
+    },
+    {
+      "path": "Data_F_Ind_3001_3750.zip",
+      "bytes": 84445339,
+      "sha256": "88a3fb4ce72595d38ec6cec437f37b2f67f65baa3b9e48abfb5e34507266afa5"
+    },
+    {
+      "path": "Data_F_Ind_751_1500.zip",
+      "bytes": 84474812,
+      "sha256": "58fd7779a1eeee89edde47b234ed856eac3f08731cc366e388e84c8a0dc3bac9"
+    },
+    {
+      "path": "Data_N_50.zip",
+      "bytes": 5610825,
+      "sha256": "14996f9370c5006a2e4d2f592ef15e4ba5822fdae56fdf3827c99fd55107acbe"
+    },
+    {
+      "path": "Data_N_Ind_1501_2250.zip",
+      "bytes": 84210916,
+      "sha256": "6165cf1f808fd21d38659579d19df362e31829ba8826a6ce2403ec3f61fce4a0"
+    },
+    {
+      "path": "Data_N_Ind_1_750.zip",
+      "bytes": 84152401,
+      "sha256": "30e703127260d0e467a93500e5af4cc3d3e7ae6add3e1a2a4613ba39ceff6178"
+    },
+    {
+      "path": "Data_N_Ind_2251_3000.zip",
+      "bytes": 84030833,
+      "sha256": "52afeb4a35ae3a27bfcab22d2751f3d3b0da93e7e90a210c26017d731a985867"
+    },
+    {
+      "path": "Data_N_Ind_3001_3750.zip",
+      "bytes": 84119738,
+      "sha256": "73e3a9dace8443e29dcafb3b2cbefb8590db6bb267c728bd16b3097da6b53200"
+    },
+    {
+      "path": "Data_N_Ind_751_1500.zip",
+      "bytes": 84074558,
+      "sha256": "6a674ba1d88cc3f26a44cfe472d3b11dad882e030f3de0c6d84e62bd9f7daec6"
+    },
+    {
+      "path": "Results_F_All.txt",
+      "bytes": 62667,
+      "sha256": "8e0a6c9bbde3712d35f463d9b6977ba754d4e5554b16265869f497fe396a7f05"
+    },
+    {
+      "path": "Results_N_All.txt",
+      "bytes": 62667,
+      "sha256": "2c5ca5fd75e29469bbfd86f3ec36927ae3c267b6933b6c39b2edecb539a00fa2"
+    },
+    {
+      "path": "_repository_metadata/item.json",
+      "bytes": 9673,
+      "sha256": "926b38da0991c635b13cf4067815d1674f75bf90b4ee2393598d1665b7952134"
+    },
+    {
+      "path": "_repository_metadata/bundles.json",
+      "bytes": 42822,
+      "sha256": "1d34f2ef5aed5a7d90eebba380c6ab2dd5b45a68a3ec9b10878ea7abb890a3f1"
+    }
+  ],
+  "web_page_capture": "upf_ntsa_download_page_2026-10-06.txt: text of the UPF NTSA download page (https://www.upf.edu/web/ntsa/downloads), captured 2026-10-06"
+}

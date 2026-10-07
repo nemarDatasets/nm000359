@@ -1,0 +1,47 @@
+{
+  "Name": "Bern-Barcelona EEG database: focal and nonfocal intracranial EEG signal pairs (Andrzejak, Schindler & Rummel 2012)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Ralph G. Andrzejak",
+    "Kaspar Schindler",
+    "Christian Rummel"
+  ],
+  "Acknowledgements": "Data, source code and results published by the authors at the Repositori Digital de la UPF (doi:10.34810/data502). BIDS conversion for NEMAR by Bruno Aristimunha's iEEG-NEMAR campaign.",
+  "HowToAcknowledge": "Cite Andrzejak RG, Schindler K, Rummel C (2012) Nonrandomness, nonlinear dependence, and nonstationarity of electroencephalographic recordings from epilepsy patients. Phys. Rev. E 86, 046206, doi:10.1103/PhysRevE.86.046206, and the dataset doi:10.34810/data502.",
+  "Funding": [
+    "Spanish Ministry of Education and Science, grant FIS-2010-18204 (R.G.A.)"
+  ],
+  "EthicsApprovals": [
+    "Retrospective EEG data analysis approved by the ethics committee of the Kanton of Bern; all patients gave written informed consent that their data from long-term EEG might be used for research purposes (Andrzejak et al. 2012, Sec. II A)."
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.1103/PhysRevE.86.046206",
+    "https://doi.org/10.34810/data502",
+    "http://hdl.handle.net/10230/42829",
+    "https://www.upf.edu/web/ntsa/downloads"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.34810/data502",
+      "URL": "http://hdl.handle.net/10230/42829",
+      "Version": "2019-11-12 deposit (dc.date.available)"
+    }
+  ],
+  "Keywords": [
+    "intracranial EEG",
+    "epilepsy",
+    "focal",
+    "non-focal",
+    "seizure onset zone",
+    "Bern-Barcelona",
+    "nonlinear time series analysis"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "laneG_convert.py / laneG_finalize.py (iEEG-NEMAR campaign, lane G)",
+      "Description": "ASCII text -> BrainVision conversion without filtering, resampling, re-referencing or rescaling; every sample verified identical to the source text."
+    }
+  ]
+}

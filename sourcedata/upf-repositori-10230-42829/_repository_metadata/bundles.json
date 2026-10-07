@@ -1,0 +1,1062 @@
+{
+  "_embedded" : {
+    "bundles" : [ {
+      "uuid" : "24793413-4f36-4984-95ba-af96a0301747",
+      "name" : "ORIGINAL",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "ORIGINAL",
+          "language" : null,
+          "authority" : null,
+          "orcid" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositori.upf.edu/server/api/core/bundles/24793413-4f36-4984-95ba-af96a0301747/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositori.upf.edu/server/api/core/bundles/24793413-4f36-4984-95ba-af96a0301747/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositori.upf.edu/server/api/core/bundles/24793413-4f36-4984-95ba-af96a0301747/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositori.upf.edu/server/api/core/bundles/24793413-4f36-4984-95ba-af96a0301747"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "d43b802b-2785-4851-9011-7e7268c81bce",
+              "uuid" : "d43b802b-2785-4851-9011-7e7268c81bce",
+              "name" : "ASR_Sources_2013_06_11.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "ASR_Sources_2013_06_11.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "ASR_Sources_2013_06_11.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 11924,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "c94bb51c5a8c53f884ac2fdf62d92619"
+              },
+              "sequenceId" : 1,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/d43b802b-2785-4851-9011-7e7268c81bce/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/d43b802b-2785-4851-9011-7e7268c81bce/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/d43b802b-2785-4851-9011-7e7268c81bce/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/d43b802b-2785-4851-9011-7e7268c81bce/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/d43b802b-2785-4851-9011-7e7268c81bce"
+                }
+              }
+            }, {
+              "id" : "5540ac21-18a1-402b-96c7-aff5bb2cf6c5",
+              "uuid" : "5540ac21-18a1-402b-96c7-aff5bb2cf6c5",
+              "name" : "Data_F_Ind_1_750.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_F_Ind_1_750.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_F_Ind_1_750.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 84371800,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "9ae2804ce3a6931f4e8d4704fb6388bb"
+              },
+              "sequenceId" : 2,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/5540ac21-18a1-402b-96c7-aff5bb2cf6c5/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/5540ac21-18a1-402b-96c7-aff5bb2cf6c5/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/5540ac21-18a1-402b-96c7-aff5bb2cf6c5/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/5540ac21-18a1-402b-96c7-aff5bb2cf6c5/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/5540ac21-18a1-402b-96c7-aff5bb2cf6c5"
+                }
+              }
+            }, {
+              "id" : "fb43b95b-1978-4212-b108-cf5cd79f97d3",
+              "uuid" : "fb43b95b-1978-4212-b108-cf5cd79f97d3",
+              "name" : "Data_F_Ind_751_1500.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_F_Ind_751_1500.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_F_Ind_751_1500.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 84474812,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "87bac17de2cc5b20da487060bde08eda"
+              },
+              "sequenceId" : 3,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/fb43b95b-1978-4212-b108-cf5cd79f97d3/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/fb43b95b-1978-4212-b108-cf5cd79f97d3/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/fb43b95b-1978-4212-b108-cf5cd79f97d3/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/fb43b95b-1978-4212-b108-cf5cd79f97d3/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/fb43b95b-1978-4212-b108-cf5cd79f97d3"
+                }
+              }
+            }, {
+              "id" : "8ef04a94-50ab-4a1b-b751-b94d14ceb286",
+              "uuid" : "8ef04a94-50ab-4a1b-b751-b94d14ceb286",
+              "name" : "Data_F_Ind_1501_2250.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_F_Ind_1501_2250.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_F_Ind_1501_2250.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 84402222,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "d71ef75db502330a579337eeea80c76b"
+              },
+              "sequenceId" : 4,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/8ef04a94-50ab-4a1b-b751-b94d14ceb286/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/8ef04a94-50ab-4a1b-b751-b94d14ceb286/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/8ef04a94-50ab-4a1b-b751-b94d14ceb286/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/8ef04a94-50ab-4a1b-b751-b94d14ceb286/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/8ef04a94-50ab-4a1b-b751-b94d14ceb286"
+                }
+              }
+            }, {
+              "id" : "0d78fecc-f640-4f66-828a-a0a3523f6563",
+              "uuid" : "0d78fecc-f640-4f66-828a-a0a3523f6563",
+              "name" : "Data_F_Ind_2251_3000.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_F_Ind_2251_3000.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_F_Ind_2251_3000.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 84449829,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "2c0ccf89461fc8eec3f0e7baa8657aa1"
+              },
+              "sequenceId" : 5,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/0d78fecc-f640-4f66-828a-a0a3523f6563/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/0d78fecc-f640-4f66-828a-a0a3523f6563/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/0d78fecc-f640-4f66-828a-a0a3523f6563/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/0d78fecc-f640-4f66-828a-a0a3523f6563/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/0d78fecc-f640-4f66-828a-a0a3523f6563"
+                }
+              }
+            }, {
+              "id" : "093776be-8029-4993-832e-235dab8a1016",
+              "uuid" : "093776be-8029-4993-832e-235dab8a1016",
+              "name" : "Data_F_Ind_3001_3750.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_F_Ind_3001_3750.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_F_Ind_3001_3750.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 84445339,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "a13f6246bd53bae9d67ba351c1c5314d"
+              },
+              "sequenceId" : 6,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/093776be-8029-4993-832e-235dab8a1016/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/093776be-8029-4993-832e-235dab8a1016/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/093776be-8029-4993-832e-235dab8a1016/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/093776be-8029-4993-832e-235dab8a1016/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/093776be-8029-4993-832e-235dab8a1016"
+                }
+              }
+            }, {
+              "id" : "b7ea5b39-1371-44ac-9efa-15d90fe4cffa",
+              "uuid" : "b7ea5b39-1371-44ac-9efa-15d90fe4cffa",
+              "name" : "Data_N_Ind_1_750.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_N_Ind_1_750.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_N_Ind_1_750.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 84152401,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "3d9bdf28e1832eb1d0e0e59482014788"
+              },
+              "sequenceId" : 7,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/b7ea5b39-1371-44ac-9efa-15d90fe4cffa/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/b7ea5b39-1371-44ac-9efa-15d90fe4cffa/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/b7ea5b39-1371-44ac-9efa-15d90fe4cffa/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/b7ea5b39-1371-44ac-9efa-15d90fe4cffa/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/b7ea5b39-1371-44ac-9efa-15d90fe4cffa"
+                }
+              }
+            }, {
+              "id" : "ad3720e5-1384-429f-ac95-a77ffe876669",
+              "uuid" : "ad3720e5-1384-429f-ac95-a77ffe876669",
+              "name" : "Data_N_Ind_751_1500.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_N_Ind_751_1500.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_N_Ind_751_1500.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 84074558,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "5e73bfbfcfc18ddc58fa7f0f20cf7583"
+              },
+              "sequenceId" : 8,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/ad3720e5-1384-429f-ac95-a77ffe876669/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/ad3720e5-1384-429f-ac95-a77ffe876669/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/ad3720e5-1384-429f-ac95-a77ffe876669/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/ad3720e5-1384-429f-ac95-a77ffe876669/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/ad3720e5-1384-429f-ac95-a77ffe876669"
+                }
+              }
+            }, {
+              "id" : "560640ed-cb31-443a-a8a4-968299a03252",
+              "uuid" : "560640ed-cb31-443a-a8a4-968299a03252",
+              "name" : "Data_N_Ind_1501_2250.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_N_Ind_1501_2250.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_N_Ind_1501_2250.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 84210916,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "bcf7efd617238d0b05a03b8dde319efb"
+              },
+              "sequenceId" : 9,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/560640ed-cb31-443a-a8a4-968299a03252/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/560640ed-cb31-443a-a8a4-968299a03252/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/560640ed-cb31-443a-a8a4-968299a03252/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/560640ed-cb31-443a-a8a4-968299a03252/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/560640ed-cb31-443a-a8a4-968299a03252"
+                }
+              }
+            }, {
+              "id" : "c5cba854-df35-45f6-a3d7-05f618ab0f3b",
+              "uuid" : "c5cba854-df35-45f6-a3d7-05f618ab0f3b",
+              "name" : "Data_N_Ind_2251_3000.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_N_Ind_2251_3000.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_N_Ind_2251_3000.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 84030833,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "995c1873b5bae349f12b7f672f449701"
+              },
+              "sequenceId" : 10,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/c5cba854-df35-45f6-a3d7-05f618ab0f3b/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/c5cba854-df35-45f6-a3d7-05f618ab0f3b/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/c5cba854-df35-45f6-a3d7-05f618ab0f3b/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/c5cba854-df35-45f6-a3d7-05f618ab0f3b/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/c5cba854-df35-45f6-a3d7-05f618ab0f3b"
+                }
+              }
+            }, {
+              "id" : "77ba92df-1d28-414a-b0f6-1ce4607e7db4",
+              "uuid" : "77ba92df-1d28-414a-b0f6-1ce4607e7db4",
+              "name" : "Data_N_Ind_3001_3750.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_N_Ind_3001_3750.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_N_Ind_3001_3750.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 84119738,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "618ef615ef3a49a87e2d944912b39933"
+              },
+              "sequenceId" : 11,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/77ba92df-1d28-414a-b0f6-1ce4607e7db4/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/77ba92df-1d28-414a-b0f6-1ce4607e7db4/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/77ba92df-1d28-414a-b0f6-1ce4607e7db4/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/77ba92df-1d28-414a-b0f6-1ce4607e7db4/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/77ba92df-1d28-414a-b0f6-1ce4607e7db4"
+                }
+              }
+            }, {
+              "id" : "12cd8344-7ef4-4de4-9fe1-812c3c9a0fe0",
+              "uuid" : "12cd8344-7ef4-4de4-9fe1-812c3c9a0fe0",
+              "name" : "Results_N_All.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Results_N_All.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Results_N_All.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 62667,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "63e242c06d83d7f9dc5c0b623db2b6a3"
+              },
+              "sequenceId" : 12,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/12cd8344-7ef4-4de4-9fe1-812c3c9a0fe0/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/12cd8344-7ef4-4de4-9fe1-812c3c9a0fe0/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/12cd8344-7ef4-4de4-9fe1-812c3c9a0fe0/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/12cd8344-7ef4-4de4-9fe1-812c3c9a0fe0/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/12cd8344-7ef4-4de4-9fe1-812c3c9a0fe0"
+                }
+              }
+            }, {
+              "id" : "6f1f4182-78a9-48df-9199-83fa759db021",
+              "uuid" : "6f1f4182-78a9-48df-9199-83fa759db021",
+              "name" : "Results_F_All.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Results_F_All.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Results_F_All.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 62667,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "00b7651d73fd13838335e0e137871b00"
+              },
+              "sequenceId" : 13,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/6f1f4182-78a9-48df-9199-83fa759db021/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/6f1f4182-78a9-48df-9199-83fa759db021/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/6f1f4182-78a9-48df-9199-83fa759db021/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/6f1f4182-78a9-48df-9199-83fa759db021/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/6f1f4182-78a9-48df-9199-83fa759db021"
+                }
+              }
+            }, {
+              "id" : "04fc2325-59da-4a76-a618-8f44ca94b714",
+              "uuid" : "04fc2325-59da-4a76-a618-8f44ca94b714",
+              "name" : "Data_F_50.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_F_50.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_F_50.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 5635975,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "f814ddce78f0ad6cd8496e1ae275a028"
+              },
+              "sequenceId" : 14,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/04fc2325-59da-4a76-a618-8f44ca94b714/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/04fc2325-59da-4a76-a618-8f44ca94b714/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/04fc2325-59da-4a76-a618-8f44ca94b714/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/04fc2325-59da-4a76-a618-8f44ca94b714/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/04fc2325-59da-4a76-a618-8f44ca94b714"
+                }
+              }
+            }, {
+              "id" : "8d488245-9129-4a23-b574-11ba2883f626",
+              "uuid" : "8d488245-9129-4a23-b574-11ba2883f626",
+              "name" : "Data_N_50.zip",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Data_N_50.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Data_N_50.zip",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "ORIGINAL",
+              "sizeBytes" : 5610825,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "7211ae374c7986156cce25d44c47c08d"
+              },
+              "sequenceId" : 15,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/8d488245-9129-4a23-b574-11ba2883f626/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/8d488245-9129-4a23-b574-11ba2883f626/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/8d488245-9129-4a23-b574-11ba2883f626/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/8d488245-9129-4a23-b574-11ba2883f626/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/8d488245-9129-4a23-b574-11ba2883f626"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 15
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositori.upf.edu/server/api/core/bundles/24793413-4f36-4984-95ba-af96a0301747/bitstreams"
+            }
+          }
+        }
+      }
+    }, {
+      "uuid" : "ca61d9a8-bd36-4571-9898-94d56f4fa0eb",
+      "name" : "TEXT",
+      "handle" : null,
+      "metadata" : {
+        "dc.title" : [ {
+          "value" : "TEXT",
+          "language" : null,
+          "authority" : null,
+          "orcid" : null,
+          "confidence" : -1,
+          "place" : 0
+        } ]
+      },
+      "type" : "bundle",
+      "_links" : {
+        "item" : {
+          "href" : "https://repositori.upf.edu/server/api/core/bundles/ca61d9a8-bd36-4571-9898-94d56f4fa0eb/item"
+        },
+        "bitstreams" : {
+          "href" : "https://repositori.upf.edu/server/api/core/bundles/ca61d9a8-bd36-4571-9898-94d56f4fa0eb/bitstreams"
+        },
+        "primaryBitstream" : {
+          "href" : "https://repositori.upf.edu/server/api/core/bundles/ca61d9a8-bd36-4571-9898-94d56f4fa0eb/primaryBitstream"
+        },
+        "self" : {
+          "href" : "https://repositori.upf.edu/server/api/core/bundles/ca61d9a8-bd36-4571-9898-94d56f4fa0eb"
+        }
+      },
+      "_embedded" : {
+        "bitstreams" : {
+          "_embedded" : {
+            "bitstreams" : [ {
+              "id" : "b131a580-64da-4f5e-b926-0799e5563a24",
+              "uuid" : "b131a580-64da-4f5e-b926-0799e5563a24",
+              "name" : "Results_N_All.txt.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2024-12-14T04:59:49Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Results_N_All.txt.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 66419,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "b2afce70ca783d67cad945e10577e2e0"
+              },
+              "sequenceId" : 18,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/b131a580-64da-4f5e-b926-0799e5563a24/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/b131a580-64da-4f5e-b926-0799e5563a24/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/b131a580-64da-4f5e-b926-0799e5563a24/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/b131a580-64da-4f5e-b926-0799e5563a24/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/b131a580-64da-4f5e-b926-0799e5563a24"
+                }
+              }
+            }, {
+              "id" : "31ff7c86-eef8-409f-873f-d1896cc4edb5",
+              "uuid" : "31ff7c86-eef8-409f-873f-d1896cc4edb5",
+              "name" : "Results_F_All.txt.txt",
+              "handle" : null,
+              "metadata" : {
+                "dc.description" : [ {
+                  "value" : "Extracted text",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.source" : [ {
+                  "value" : "Written by FormatFilter org.dspace.app.mediafilter.TikaTextExtractionFilter on 2024-12-14T04:59:56Z (GMT).",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ],
+                "dc.title" : [ {
+                  "value" : "Results_F_All.txt.txt",
+                  "language" : null,
+                  "authority" : null,
+                  "orcid" : null,
+                  "confidence" : -1,
+                  "place" : 0
+                } ]
+              },
+              "bundleName" : "TEXT",
+              "sizeBytes" : 66419,
+              "checkSum" : {
+                "checkSumAlgorithm" : "MD5",
+                "value" : "226d3fe6db5dd46208cca6ac97219702"
+              },
+              "sequenceId" : 19,
+              "type" : "bitstream",
+              "_links" : {
+                "content" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/31ff7c86-eef8-409f-873f-d1896cc4edb5/content"
+                },
+                "bundle" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/31ff7c86-eef8-409f-873f-d1896cc4edb5/bundle"
+                },
+                "format" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/31ff7c86-eef8-409f-873f-d1896cc4edb5/format"
+                },
+                "thumbnail" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/31ff7c86-eef8-409f-873f-d1896cc4edb5/thumbnail"
+                },
+                "self" : {
+                  "href" : "https://repositori.upf.edu/server/api/core/bitstreams/31ff7c86-eef8-409f-873f-d1896cc4edb5"
+                }
+              }
+            } ]
+          },
+          "page" : {
+            "number" : 0,
+            "size" : 20,
+            "totalPages" : 1,
+            "totalElements" : 2
+          },
+          "_links" : {
+            "self" : {
+              "href" : "https://repositori.upf.edu/server/api/core/bundles/ca61d9a8-bd36-4571-9898-94d56f4fa0eb/bitstreams"
+            }
+          }
+        }
+      }
+    } ]
+  },
+  "page" : {
+    "number" : 0,
+    "size" : 50,
+    "totalPages" : 1,
+    "totalElements" : 2
+  },
+  "_links" : {
+    "self" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69/bundles?embed=bitstreams&size=50"
+    }
+  }
+}

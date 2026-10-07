@@ -1,0 +1,318 @@
+{
+  "id" : "addb233d-d22a-40d8-94bf-60e098ab2a69",
+  "uuid" : "addb233d-d22a-40d8-94bf-60e098ab2a69",
+  "name" : "Nonrandomness, nonlinear dependence, and nonstationarity of electroencephalographic recordings from epilepsy patients [dataset]",
+  "handle" : "10230/42829",
+  "metadata" : {
+    "dc.contributor.author" : [ {
+      "value" : "Andrzejak, Ralph Gregor",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Schindler, Kaspar A.",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Rummel, Christian",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ],
+    "dc.date.accessioned" : [ {
+      "value" : "2019-11-12T14:20:50Z",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.available" : [ {
+      "value" : "2019-11-12T14:20:50Z",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.date.issued" : [ {
+      "value" : "2012",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description" : [ {
+      "value" : "Zip files containing MATLAB files (.m) and TXT files (.txt).",
+      "language" : "ca",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.abstract" : [ {
+      "value" : "This page provides the source code, data, and detailed results of the manuscript:\r\nAndrzejak RG, Schindler K, Rummel C. Nonrandomness, nonlinear dependence, and\r\nnonstationarity of electroencephalographic recordings from epilepsy patients. Phys. Rev.\r\nE, 86, 046206, 2012.\r\nIf you use any of these resources, please make sure that you cite this reference. For\r\nmore detailed information, please refer to https://www.upf.edu/web/ntsa/downloads",
+      "language" : "ca",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.description.sponsorship" : [ {
+      "value" : "R.G.A. acknowledges grant FIS-2010-18204 of the Spanish Ministry of Education and Science.",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.citation" : [ {
+      "value" : "Andrzejak RG, Schindler KA, Rummel C. Nonrandomness, nonlinear dependence, and nonstationarity of electroencephalographic recordings from epilepsy patients [dataset]. Repositori Digital de la UPF: Barcelona; 2012. Available from: http://hdl.handle.net/10230/42829",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.doi" : [ {
+      "value" : "https://doi.org/10.34810/data502",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.identifier.uri" : [ {
+      "value" : "http://hdl.handle.net/10230/42829",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.language.iso" : [ {
+      "value" : "eng",
+      "language" : "ca",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation" : [ {
+      "value" : "Publicació relacionada: Andrzejak RG, Schindler K, Rummel C. Nonrandomness, nonlinear dependence, and nonstationarity of electroencephalographic recordings from epilepsy patients. Phys. Rev. E. 2012;86:046206. DOI: 10.1103/PhysRevE.86.046206 http://hdl.handle.net/10230/43557",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.isreferencedby" : [ {
+      "value" : "http://hdl.handle.net/10230/43557",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.relation.projectID" : [ {
+      "value" : "info:eu-repo/grantAgreement/ES/3PN/FIS-2010-18204",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights" : [ {
+      "value" : "Licensed under a Creative Commons License (CC-BY) 4.0",
+      "language" : "ca",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.accessRights" : [ {
+      "value" : "info:eu-repo/semantics/openAccess",
+      "language" : "ca",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.rights.uri" : [ {
+      "value" : "https://creativecommons.org/licenses/by/4.0/",
+      "language" : "ca",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.subject.keyword" : [ {
+      "value" : "EEG download page",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Electroencephalogram",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Epilepsy",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 2
+    }, {
+      "value" : "Intracranial EEG recordings",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 3
+    }, {
+      "value" : "Nonlinear signal analysis",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 4
+    }, {
+      "value" : "Nonlinear time series analysis",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 5
+    }, {
+      "value" : "Free EEG database",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 6
+    }, {
+      "value" : "Nonlinear prediction error source code",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 7
+    }, {
+      "value" : "Surrogate signals",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 8
+    }, {
+      "value" : "Surrogate source code",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 9
+    }, {
+      "value" : "EEG download page Bonn",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 10
+    }, {
+      "value" : "Electroencephalographic recordings",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 11
+    }, {
+      "value" : "Open Matlab source codes",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 12
+    } ],
+    "dc.title" : [ {
+      "value" : "Nonrandomness, nonlinear dependence, and nonstationarity of electroencephalographic recordings from epilepsy patients [dataset]",
+      "language" : "ca",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    } ],
+    "dc.type" : [ {
+      "value" : "info:eu-repo/semantics/other",
+      "language" : "ca",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 0
+    }, {
+      "value" : "Dataset",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 1
+    }, {
+      "value" : "Software",
+      "language" : "",
+      "authority" : null,
+      "orcid" : null,
+      "confidence" : -1,
+      "place" : 2
+    } ]
+  },
+  "inArchive" : true,
+  "discoverable" : true,
+  "withdrawn" : false,
+  "lastModified" : "2024-12-14T04:59:59.816+00:00",
+  "entityType" : null,
+  "type" : "item",
+  "_links" : {
+    "accessStatus" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69/accessStatus"
+    },
+    "bundles" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69/bundles"
+    },
+    "identifiers" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69/identifiers"
+    },
+    "mappedCollections" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69/mappedCollections"
+    },
+    "owningCollection" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69/owningCollection"
+    },
+    "relationships" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69/relationships"
+    },
+    "version" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69/version"
+    },
+    "templateItemOf" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69/templateItemOf"
+    },
+    "thumbnail" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69/thumbnail"
+    },
+    "self" : {
+      "href" : "https://repositori.upf.edu/server/api/core/items/addb233d-d22a-40d8-94bf-60e098ab2a69"
+    }
+  }
+}

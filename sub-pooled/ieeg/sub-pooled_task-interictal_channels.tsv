@@ -1,0 +1,3 @@
+name	type	units	low_cutoff	high_cutoff	status	description
+x	OTHER	n/a	0.5	150	good	signal x of the pair; Intracranial EEG signal (subdural strip or depth contact; not recorded by the source). Physical unit/scaling of the stored values is not stated by the source; values are exactly the source text values.
+y	OTHER	n/a	0.5	150	good	signal y of the pair; Intracranial EEG signal (subdural strip or depth contact; not recorded by the source). Physical unit/scaling of the stored values is not stated by the source; values are exactly the source text values.

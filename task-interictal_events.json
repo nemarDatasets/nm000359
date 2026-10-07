@@ -1,0 +1,9 @@
+{
+  "trial_type": {
+    "Description": "Signal class of the whole 20-s run (one event spanning the run).",
+    "Levels": {
+      "focal": "Both signals recorded at focal EEG channels (seizure onset zone channels).",
+      "nonfocal": "Both signals recorded at nonfocal EEG channels (not involved at seizure onset)."
+    }
+  }
+}

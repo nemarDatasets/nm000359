@@ -1,0 +1,24 @@
+Bern-Barcelona EEG database (iEEG-BIDS release)
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Source and rights statement
+- Source dataset: Andrzejak RG, Schindler KA, Rummel C. Nonrandomness, nonlinear dependence, and
+  nonstationarity of electroencephalographic recordings from epilepsy patients [dataset]. Repositori Digital
+  de la UPF, 2012. doi:10.34810/data502, http://hdl.handle.net/10230/42829
+- Repository rights field (dc.rights), verbatim: "Licensed under a Creative Commons License (CC-BY) 4.0"
+  (dc.rights.uri https://creativecommons.org/licenses/by/4.0/)
+
+Attribution: cite Andrzejak RG, Schindler K, Rummel C (2012) Phys. Rev. E 86, 046206,
+doi:10.1103/PhysRevE.86.046206, and doi:10.34810/data502.
+
+Additional statement by the authors (UPF NTSA download page "Legal Agreement", captured 2026-10-06; it is not
+part of the repository rights field for this item and is reproduced for information):
+"The source codes, data and results on these sites are free of charge for research and education purposes
+only. Any commercial or military use is prohibited. All resources are provided without any expressed or
+implied warranty. In no event the authors of the article or any of their host institutions are liable for any
+damages arising from the use of the software, data or results."
+
+Changes made: format conversion only (ASCII text to BrainVision float32, values identical to the source text);
+BIDS metadata added. Original files are included unchanged in sourcedata/.

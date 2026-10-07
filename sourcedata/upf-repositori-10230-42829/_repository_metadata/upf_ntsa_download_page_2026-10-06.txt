@@ -1,0 +1,65 @@
+Captured 2026-10-06 (innerText of the page body; typographic quotes normalised to ASCII) from
+https://www.upf.edu/web/ntsa/downloads/-/asset_publisher/xvT6E4pczrBw/content/2012-nonrandomness-nonlinear-dependence-and-nonstationarity-of-electroencephalographic-recordings-from-epilepsy-patients
+---------------------------------------------------------------------------------------------------
+Reference
+
+This page provides information about the source code, data, and results provided along with the manuscript [1]. If you use any of these resources, please make sure that you cite this manuscript. This will allow other researchers to locate the resources and the corresponding information. Links to the source code, data, and results can be found below We suggest to refer to the resources as Bern-Barcelona EEG database.
+
+Reference [1] Andrzejak RG, Schindler K, Rummel C. Nonrandomness, nonlinear dependence, and nonstationarity of electroencephalographic recordings from epilepsy patients. Phys. Rev. E, 86, 046206, 2012
+
+Source code, results and data
+
+Source code 
+
+All Matlab source codes are included in the file ASR_Sources_2013_06_11.zip. Before you start using the code you should read reference [1] and references therein to understand what the code is doing. To get started with the code you should open ASR_Main.m and read the comments in this code. Afterwards have a look at the files called from ASR_Main.m. Key references are given at the beginning of each source code. These coincide with those already included in reference [1]. We have extracted this code from the one we used to carry out our study [1]. We have tested the code, and to the best of our knowledge it has no bugs. 
+
+ASR_Sources_2013_06_11.zip
+
+Notation
+
+In the following we use the letters 'F' and 'N' to refer to focal and non-focal signals, respectively. These letters appear in the filenames and some headers of text files as specified below.
+ 
+Data
+
+Please refer to reference [1] for a detailed description of the acquisition, pre-processing and selection of the data. The entire data set is provided in several compressed zip-files.
+
+Data_F_Ind_1_750.zip
+Data_F_Ind_751_1500.zip
+Data_F_Ind_1501_2250.zip
+Data_F_Ind_2251_3000.zip
+Data_F_Ind_3001_3750.zip
+Data_N_Ind_1_750.zip
+Data_N_Ind_751_1500.zip
+Data_N_Ind_1501_2250.zip
+Data_N_Ind_2251_3000.zip
+Data_N_Ind_3001_3750.zip
+
+Files with F and N contain focal and non-focal signal pairs, respectively. Each Zip-file contains 750 individual text files. The number in the file name corresponds to the index of the signal pair contained in this file. Each text file contains one individual signal pair. The x-signal is contained in the first column, the y-signal is contained in the second column. The two columns are separated by commas. All files have 10240 rows. Subsequent rows correspond to subsequent samples. The files contain no headers
+
+We also provide a small subset of the recordings containing the first 50 signals only (Data_F_50.zip and Data_N_50.zip). This will allow you to have a quick look at the data before deciding whether you want to download the entire dataset.
+
+Results
+
+Results are given in comma-separated text format. The files Results_F_All.txt and Results_N_All.txt contain the results for all focal and non-focal signal pairs, respectively. The structure of both files is identical. The first row of the files contain the header:
+
+Results_F_All.txt has the header: 'Index, SF, UxF, UyF, BF'.
+Results_N_All.txt has the header: 'Index, SN, UxN, UyN, BN'.
+
+All subsequent 3750 rows contain the index of the signal pair and the results of the four hypotheses tests, separated by commas. The results of the hypotheses tests are 0 (test accepted) or 1 (test rejected). The index used in the result files corresponds to the one used in the name of the data files.
+
+The first column (header 'index') contains the index of the signal pair, running from 1 to 3750. The second column (header 'SF' or 'SN' ) contains the results of the stationarity test for the pair of signals. The third column (header 'UxF' or 'UxN') contains the results of the randomness test for the signal x. The fourth column (header 'UyF' or 'UyN') contains the results of the randomness test for the signal y. The fifth column (header 'BF' or 'BN') contains the results of the nonlinear-independence test for the pair of signals x and y.
+
+Important remark
+
+If you rerun the analysis using our algorithms and our data, you will not get the identical results as provided here. The reason is an inherent stochastic component in these results: All test are based on surrogates. Surrogates are random signals. Each time you generate a surrogate, you get another realization of this random signal. Therefore, when you calculate e.g. the nonlinear prediction error for a set of surrogates, you obtain an independent identically distributed random sample (i.i.d.) from the surrogates' distribution. If you run the test twice, you will get two independent random samples. Now suppose that the nonlinear prediction error for the original signal is close to the distribution of the surrogates' nonlinear prediction errors. In that case, the original result might be just inside the surrogates' results for one set of surrogates, and just outside the surrogates' distribution for another set of surrogates. Therefore, in some cases you might get a rejection of a test which is listed as accepted in our results. Likewise, in other cases you might get an acceptance of a test which is listed as rejected in our results. Importantly, statistically you will get the same results. All rejection probabilities and conditioned rejection probabilities will be close to the ones provided here. The remaining differences are due to the fluctuations caused by the random nature of the surrogates described in this paragraph.
+
+Key words
+
+We add the following key words related to reference [1] to help people to find this page. EEG download page, electroencephalogram, epilepsy, intracranial EEG recordings, nonlinear signal analysis, nonlinear time series analysis, free EEG database, nonlinear prediction error source code, surrogate signals, surrogate source code, EEG download page Bonn, electroencephalographic recordings, open Matlab source codes
+
+Mirrowed material
+
+Identical material mirrowed at library page: e-Repositori
+Legal Agreement
+
+The source codes, data and results on these sites are free of charge for research and education purposes only. Any commercial or military use is prohibited. All resources are provided without any expressed or implied warranty. In no event the authors of the article or any of their host institutions are liable for any damages arising from the use of the software, data or results.

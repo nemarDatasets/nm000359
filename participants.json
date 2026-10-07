@@ -1,0 +1,18 @@
+{
+  "participant_id": {
+    "Description": "Pseudo-subject. sub-pooled is NOT one person: it pools anonymous 20-s signal pairs drawn at random from the long-term intracranial EEG of five patients. The source did not store which patient a pair came from, so per-patient subjects cannot be formed."
+  },
+  "species": {
+    "Description": "Species of the recorded individuals."
+  },
+  "n_patients_pooled": {
+    "Description": "Number of patients whose recordings contributed segments (Andrzejak et al. 2012, Sec. II A)."
+  },
+  "age": {
+    "Description": "Not reported per patient by the source.",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "Not reported per patient by the source."
+  }
+}

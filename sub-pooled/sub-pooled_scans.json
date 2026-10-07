@@ -1,0 +1,49 @@
+{
+  "acq": {
+    "Description": "Signal class defined by the source: focal = both signals recorded at 'focal EEG channels' (channels that detected the first ictal EEG signal changes, judged by at least two board-certified electroencephalographers); nonfocal = both signals recorded at channels not involved at seizure onset.",
+    "Levels": {
+      "focal": "source letter F (Data_F_Ind*.txt)",
+      "nonfocal": "source letter N (Data_N_Ind*.txt)"
+    }
+  },
+  "pair_index": {
+    "Description": "Index of the signal pair in the source (1-3750 per class); the number in the source file name Data_<F|N>_Ind<index>.txt. Pairs were stored by the source in the order in which they were randomly drawn; patient, channel and time window of origin were not stored by the source."
+  },
+  "source_archive": {
+    "Description": "Source zip archive (copied byte-identically to sourcedata/upf-repositori-10230-42829/)."
+  },
+  "source_member": {
+    "Description": "Text file inside the source archive from which this run was converted."
+  },
+  "source_member_sha256": {
+    "Description": "SHA-256 of the uncompressed source text file."
+  },
+  "stationarity_test_S": {
+    "Description": "Published outcome of the stationarity test for this pair, copied from Results_<F|N>_All.txt (column SF/SN) of Andrzejak et al. (2012). Analysis result, not a property of the recording.",
+    "Levels": {
+      "0": "test accepted",
+      "1": "test rejected"
+    }
+  },
+  "randomness_test_Ux": {
+    "Description": "Published outcome of the randomness test for signal x (column UxF/UxN of Results_<F|N>_All.txt).",
+    "Levels": {
+      "0": "test accepted",
+      "1": "test rejected"
+    }
+  },
+  "randomness_test_Uy": {
+    "Description": "Published outcome of the randomness test for signal y (column UyF/UyN of Results_<F|N>_All.txt).",
+    "Levels": {
+      "0": "test accepted",
+      "1": "test rejected"
+    }
+  },
+  "nonlinear_independence_test_B": {
+    "Description": "Published outcome of the nonlinear-independence test for the pair (column BF/BN of Results_<F|N>_All.txt).",
+    "Levels": {
+      "0": "test accepted",
+      "1": "test rejected"
+    }
+  }
+}
