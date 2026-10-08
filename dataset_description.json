@@ -43,5 +43,7 @@
       "Name": "laneG_convert.py / laneG_finalize.py (iEEG-NEMAR campaign, lane G)",
       "Description": "ASCII text -> BrainVision conversion without filtering, resampling, re-referencing or rescaling; every sample verified identical to the source text."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000359",
+  "Version": "1.0.0"
 }
