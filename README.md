@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000359-blue)](https://doi.org/10.82901/nemar.nm000359)
+
 # Bern-Barcelona EEG database (iEEG-BIDS)
 
 Focal and non-focal intracranial EEG signal pairs from five patients with pharmacoresistant temporal lobe
