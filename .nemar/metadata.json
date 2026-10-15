@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Bern-Barcelona EEG database: focal and nonfocal intracranial EEG signal pairs (Andrzejak, Schindler & Rummel 2012)",
-  "description": "The Bern-Barcelona EEG database contains 7500 pairs of intracranial EEG signals (3750 focal and 3750 non-focal), each 20 s long and sampled at 512 Hz, drawn from five patients with pharmacoresistant temporal lobe epilepsy. Signals were band-pass filtered and re-referenced by the original authors, and pairs were selected from seizure-free intervals. This BIDS version is a lossless repackaging of the source text files into BrainVision format. Patient identity is not retained, so all runs are pooled under a single pseudo-subject.",
-  "methods_description": "Long-term intracranial strip and depth electrode recordings were made in five epilepsy surgery candidates at the University of Bern. The data were band-pass filtered at 0.5-150 Hz (zero-phase Butterworth), down-sampled to 512 Hz where needed, and re-referenced to the median of artifact-free channels. Focal channels were defined as those showing the first ictal changes on visual inspection. 20-s windows of neighbouring channel pairs were randomly sampled from seizure-free periods. Values were converted from text to float32 BrainVision files without any alteration.",
+  "title": "Andrzejak-2012-nonrandomness-10.1103/physreve.86.046206",
+  "description": "This dataset is a lossless BIDS (iEEG-BIDS) re-packaging of the Bern-Barcelona EEG database, containing 7500 pairs of focal and non-focal intracranial EEG signals from five patients with pharmacoresistant temporal lobe epilepsy. Each pair is a 20-second segment sampled at 512 Hz, pooled anonymously under a single pseudo-subject. The data support studies of nonrandomness, nonlinear dependence, and nonstationarity in epileptic EEG, and for distinguishing focal from non-focal signals.",
+  "methods_description": "Long-term intracranial strip and depth electrode recordings (AD-TECH) were made at the University of Bern. The source applied a 0.5-150 Hz zero-phase Butterworth band-pass filter, downsampling to 512 Hz, and median re-referencing. Focal channels were those showing the first ictal changes, as judged by visual inspection. Randomly drawn 20-s windows from neighbouring channel pairs were stored as text, and were converted here to BrainVision IEEE float32 without filtering, resampling or rescaling.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -30,9 +30,9 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "Electroencephalography",
+      "term": "Epilepsy, Temporal Lobe",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004833"
     },
     {
       "term": "focal and non-focal signals"
@@ -91,5 +91,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "5842cfbe105269ee16d984513c0a0d48507495a27d572fb7148828ae796bdb6e"
+  "source_hash": "6beb4942cf26415a455e166355f03f2828c894a45db5043a04d3b6cbac0470bd"
 }
