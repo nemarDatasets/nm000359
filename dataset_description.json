@@ -1,5 +1,5 @@
 {
-  "Name": "Bern-Barcelona EEG database: focal and nonfocal intracranial EEG signal pairs (Andrzejak, Schindler & Rummel 2012)",
+  "Name": "Andrzejak-2012-nonrandomness-10.1103/physreve.86.046206",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC-BY-4.0",
@@ -45,5 +45,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000359",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
