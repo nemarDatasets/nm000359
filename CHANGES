@@ -1,2 +1,5 @@
+1.0.2 2026-10-16
+  - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
+
 1.0.0 2026-10-06
   - Initial iEEG-BIDS conversion of the Bern-Barcelona EEG database (doi:10.34810/data502) for NEMAR.
