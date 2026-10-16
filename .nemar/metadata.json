@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Bern-Barcelona EEG database: focal and nonfocal intracranial EEG signal pairs (Andrzejak, Schindler & Rummel 2012)",
-  "description": "This dataset is a lossless BIDS (iEEG-BIDS) re-packaging of the Bern-Barcelona EEG database, containing 7500 pairs of focal and non-focal intracranial EEG signals from five patients with pharmacoresistant temporal lobe epilepsy. Each pair is a 20-second segment sampled at 512 Hz, pooled anonymously under a single pseudo-subject. The data support studies of nonrandomness, nonlinear dependence, and nonstationarity in epileptic EEG, and for distinguishing focal from non-focal signals.",
-  "methods_description": "Long-term intracranial strip and depth electrode recordings (AD-TECH) were made at the University of Bern. The source applied a 0.5-150 Hz zero-phase Butterworth band-pass filter, downsampling to 512 Hz, and median re-referencing. Focal channels were those showing the first ictal changes, as judged by visual inspection. Randomly drawn 20-s windows from neighbouring channel pairs were stored as text, and were converted here to BrainVision IEEE float32 without filtering, resampling or rescaling.",
+  "description": "The Bern-Barcelona EEG database contains 7500 pairs of intracranial EEG signals (3750 focal and 3750 non-focal) from five patients with pharmacoresistant temporal lobe epilepsy. Each 20-second, 512 Hz, two-channel segment was drawn from seizure-free long-term recordings to support nonlinear time series analysis of focal versus non-focal activity. This BIDS release is a lossless repackaging of the original published text files, with all runs pooled under a single pseudo-subject.",
+  "methods_description": "Patients underwent long-term intracranial EEG recording with AD-TECH strip and depth electrodes. The source data were band-pass filtered at 0.5-150 Hz (zero-phase Butterworth), down-sampled to 512 Hz where needed, and re-referenced to the median of artifact-free channels. Focal channels were identified by visual inspection of the first ictal changes. Neighbouring-channel pairs were randomly drawn from 20-s windows, excluding seizures and the three hours after the last seizure. Values were converted from text to BrainVision float32 without modification.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -30,18 +30,18 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     },
     {
-      "term": "Epilepsy, Temporal Lobe",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004833"
-    },
-    {
-      "term": "focal and non-focal signals"
+      "term": "focal seizures"
     },
     {
       "term": "seizure onset zone"
     },
     {
       "term": "nonlinear time series analysis"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
