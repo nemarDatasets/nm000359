@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Andrzejak-2012-nonrandomness-10.1103/physreve.86.046206",
+  "title": "Bern-Barcelona EEG database: focal and nonfocal intracranial EEG signal pairs (Andrzejak, Schindler & Rummel 2012)",
   "description": "This dataset is a lossless BIDS (iEEG-BIDS) re-packaging of the Bern-Barcelona EEG database, containing 7500 pairs of focal and non-focal intracranial EEG signals from five patients with pharmacoresistant temporal lobe epilepsy. Each pair is a 20-second segment sampled at 512 Hz, pooled anonymously under a single pseudo-subject. The data support studies of nonrandomness, nonlinear dependence, and nonstationarity in epileptic EEG, and for distinguishing focal from non-focal signals.",
   "methods_description": "Long-term intracranial strip and depth electrode recordings (AD-TECH) were made at the University of Bern. The source applied a 0.5-150 Hz zero-phase Butterworth band-pass filter, downsampling to 512 Hz, and median re-referencing. Focal channels were those showing the first ictal changes, as judged by visual inspection. Randomly drawn 20-s windows from neighbouring channel pairs were stored as text, and were converted here to BrainVision IEEE float32 without filtering, resampling or rescaling.",
   "license": "CC-BY-4.0",
@@ -91,5 +91,5 @@
     ".yml",
     ".zip"
   ],
-  "source_hash": "6beb4942cf26415a455e166355f03f2828c894a45db5043a04d3b6cbac0470bd"
+  "source_hash": "d5cf2e90317093e5e914a0f71dc23e4a25577d14d277f82db73e8c11ab0a58da"
 }
