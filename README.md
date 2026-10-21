@@ -27,7 +27,7 @@ files; nothing was filtered, resampled, re-referenced or rescaled during convers
 | Sampling rate | 512 Hz |
 | Duration per run | 20 s |
 | Patients | 5 (pooled, not identifiable per run; see below) |
-| Value range | -2223.068115 to 3469.565918 (source units, see "Units") |
+| Value range | -2223.068115 to 3469.565918 µV (see "Units") |
 
 ## Recordings (from the paper, Sec. II)
 
@@ -107,10 +107,9 @@ compared it with the source text (see the campaign ledger).
 
 ## Units
 
-Neither the paper nor the download page states the physical unit or scale of the stored values. The paper's
-example figure shows values of roughly +/-100 to +/-200 with no unit label. Channel `units` are therefore
-`n/a` in `channels.tsv` and in the BrainVision header. Values are exactly the source numbers. Magnitudes are
-consistent with microvolts, but this is not documented by the source.
+Values are microvolts: the paper's Fig. 1, which plots six example pairs of this dataset, labels its axis
+"EEG amplitudes [µV]" (values of roughly +/-100 to +/-200). Channel `units` are `µV` in `channels.tsv`. The
+BrainVision headers keep the unit `n/a` with resolution 1, so readers load the source numbers unscaled.
 
 Channel `type` is `OTHER` because the source does not record whether a signal comes from a strip (ECoG) or a
 depth (SEEG) contact. Electrode positions are not available, so there is no `electrodes.tsv`.
@@ -150,7 +149,7 @@ from mne_bids import BIDSPath, read_raw_bids
 bp = BIDSPath(root="<dataset root>", subject="pooled", task="interictal",
               acquisition="focal", run="0007", datatype="ieeg", suffix="ieeg", extension=".vhdr")
 raw = read_raw_bids(bp)          # 2 channels (x, y), 10240 samples at 512 Hz
-data = raw.get_data()            # values exactly as in the source text; physical unit not stated by the source
+data = raw.get_data()            # values exactly as in the source text, in µV (header unit n/a: not rescaled)
 ```
 
 The published test outcomes per pair are in

@@ -1,3 +1,6 @@
+1.0.3 2026-10-21
+  - channels.tsv units µV (paper Fig. 1 axis: "EEG amplitudes [µV]"); README Units section updated. Data unchanged.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 
