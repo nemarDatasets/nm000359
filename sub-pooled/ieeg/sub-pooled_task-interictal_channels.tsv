@@ -1,3 +1,3 @@
 name	type	units	low_cutoff	high_cutoff	status	description
-x	OTHER	µV	0.5	150	good	signal x of the pair; Intracranial EEG signal (subdural strip or depth contact; not recorded by the source). Values are exactly the source text values, in µV (paper Fig. 1 axis label).
-y	OTHER	µV	0.5	150	good	signal y of the pair; Intracranial EEG signal (subdural strip or depth contact; not recorded by the source). Values are exactly the source text values, in µV (paper Fig. 1 axis label).
+x	OTHER	n/a	0.5	150	good	signal x of the pair; Intracranial EEG signal (subdural strip or depth contact; not recorded by the source). Values are exactly the source text values; the paper's Fig. 1 plots them in µV, but the headers encode no unit (see README "Units").
+y	OTHER	n/a	0.5	150	good	signal y of the pair; Intracranial EEG signal (subdural strip or depth contact; not recorded by the source). Values are exactly the source text values; the paper's Fig. 1 plots them in µV, but the headers encode no unit (see README "Units").
