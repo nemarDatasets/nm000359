@@ -1,3 +1,6 @@
+1.0.3 2026-10-21
+  - README "Units": stored values are µV as plotted in the paper's Fig. 1 (axis "EEG amplitudes [µV]"); channel units stay n/a because the BrainVision headers encode none. Data unchanged.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 

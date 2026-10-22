@@ -27,7 +27,7 @@ files; nothing was filtered, resampled, re-referenced or rescaled during convers
 | Sampling rate | 512 Hz |
 | Duration per run | 20 s |
 | Patients | 5 (pooled, not identifiable per run; see below) |
-| Value range | -2223.068115 to 3469.565918 (source units, see "Units") |
+| Value range | -2223.068115 to 3469.565918 (see "Units") |
 
 ## Recordings (from the paper, Sec. II)
 
@@ -107,10 +107,15 @@ compared it with the source text (see the campaign ledger).
 
 ## Units
 
-Neither the paper nor the download page states the physical unit or scale of the stored values. The paper's
-example figure shows values of roughly +/-100 to +/-200 with no unit label. Channel `units` are therefore
-`n/a` in `channels.tsv` and in the BrainVision header. Values are exactly the source numbers. Magnitudes are
-consistent with microvolts, but this is not documented by the source.
+The stored values are the microvolt values plotted in the paper. Fig. 1 (p. 046206-4, "Exemplary pairs of
+nonfocal signal pairs (a–c) and focal signal pairs (d–f)") has the y-axis label "EEG amplitudes [µV]". Its
+panels are `acq-nonfocal` runs 2803, 2825 and 2827 (a–c) and `acq-focal` runs 2454, 2649 and 2554 (d–f). The
+plotted traces equal the stored values (correlation >= 0.98, fitted scale 0.984 to 1.002 µV per stored unit;
+receipt: `code/receipts/2026-10-22_units-fig1.md`).
+
+Channel `units` stay `n/a` because the unchanged BrainVision headers give unit `n/a` with resolution 1. MNE
+therefore reads the stored numbers unscaled and without a unit; a `µV` entry in `channels.tsv` would make
+MNE-BIDS label these unscaled numbers as volts. Treat the values as µV and multiply by 1e-6 to get volts.
 
 Channel `type` is `OTHER` because the source does not record whether a signal comes from a strip (ECoG) or a
 depth (SEEG) contact. Electrode positions are not available, so there is no `electrodes.tsv`.
@@ -150,7 +155,7 @@ from mne_bids import BIDSPath, read_raw_bids
 bp = BIDSPath(root="<dataset root>", subject="pooled", task="interictal",
               acquisition="focal", run="0007", datatype="ieeg", suffix="ieeg", extension=".vhdr")
 raw = read_raw_bids(bp)          # 2 channels (x, y), 10240 samples at 512 Hz
-data = raw.get_data()            # values exactly as in the source text; physical unit not stated by the source
+data = raw.get_data()            # source text values, unscaled: µV per paper Fig. 1 (x 1e-6 for volts)
 ```
 
 The published test outcomes per pair are in
